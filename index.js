@@ -5,7 +5,7 @@ const fs = require("fs");
 
 
 module.exports = function (content, map, meta) {
-    const fileexist = this.
+    
     const fileBuffer = this.fs.readFileSync(this.resourcePath);
     const svgResult = fileBuffer.toString();
     const strFn = `export default function({className}) { return (${svgResult}) }`;
