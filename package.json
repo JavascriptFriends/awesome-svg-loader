@@ -1,0 +1,31 @@
+{
+  "name": "awesome-svg-loader",
+  "version": "1.0.1",
+  "description": "A simple but powerful svg loader to user with React like libs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavascriptFriends/awesome-svg-loader.git"
+  },
+  "keywords": [
+    "svg",
+    "react",
+    "inferno",
+    "preact",
+    "loader",
+    "webpack"
+  ],
+  "author": "Daniel Pereira, Jackes David and Victor Mascarenhas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JavascriptFriends/awesome-svg-loader/issues"
+  },
+  "homepage": "https://github.com/JavascriptFriends/awesome-svg-loader#readme",
+  "peerDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-inferno": "^5.0.1"
+  }
+}
