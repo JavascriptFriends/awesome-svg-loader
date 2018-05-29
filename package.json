@@ -1,6 +1,6 @@
 {
   "name": "awesome-svg-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple but powerful svg loader to user with React like libs",
   "main": "index.js",
   "scripts": {
