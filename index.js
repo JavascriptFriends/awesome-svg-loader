@@ -8,7 +8,7 @@ module.exports = function (content, map, meta) {
     const fileexist = this.
     const fileBuffer = this.fs.readFileSync(this.resourcePath);
     const svgResult = fileBuffer.toString();
-    const strFn = `export default function({className}) { return (${svgResult}) }`;
+    const strFn = `export default function icon({className}) { return (${svgResult}) }`;
 
     const babelOptions = {
         plugins: [
